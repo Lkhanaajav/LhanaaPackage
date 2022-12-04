@@ -1,0 +1,34 @@
+---
+title: "what package does"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{what package does}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(LhanaaPackage)
+```
+
+#Introduction
+
+
+## the first function
+it gives a bootstrap box plot and also gives back list of the variables
+
+## the second function
+it returns graph for the given distribution
+
+## the third function
+it returns 3 diffident graphs
+
+## the fourth function
+ returns 2 way estimated values for number of tickets to sell and  graph of discrete and continuous
